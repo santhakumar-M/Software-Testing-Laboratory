@@ -16,21 +16,55 @@ Write a python program to check the number is Armstrong number or not and inspec
 9.	Stop the program.
 
 ### Program:
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+x = input("Enter the input: ") 
+if x.isnumeric(): 
+    x = int(x) 
+    temp = x 
+    cube = 0
+    while(temp > 0): 
+        digit = temp % 10 
+        cube = cube + (digit ** 3) 
+        temp //= 10 
+    if(cube == x): 
+        print("Armstrong Number") 
+    else: 
+        print("Not Armstrong Number") 
+else: 
+    print("Enter a Positive Integer.")
+```
 ### Output:
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: 143
+Not Armstrong Number
 
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: 153
+Armstrong Number
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: -10
+Enter a Positive Integer.
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: 1
+Armstrong Number
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input:
+Enter a Positive Integer.
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: *98
+Enter a Positive Integer.
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: 0
+Armstrong Number
+
+PS C:\Users\SEC\Desktop\stl> python3 armstrong.py
+Enter the input: @123
+Enter a Positive Integer.
 
 
 
