@@ -17,19 +17,34 @@ Write a python program to check the number is prime or not and inspect for failu
 
 ### Program:
 
-
-
-
-
-
-
-
-
-
-
-
+```
+num = input("Enter a number: ")
+flag = 0
+if num.isnumeric():
+    z = int(num)
+    if z == 2:
+        flag = 1  
+    elif z > 2:
+        for i in range(2, z // 2 + 1):  
+            if z % i == 0:
+                flag = 0  
+                break
+        else:
+            flag = 1  
+    else:
+        flag = 0  
+    
+    if flag == 1:
+        print("Prime Number")
+    else:
+        print("Not a Prime Number")
+else:
+    print("Enter a Positive Number")
+```
 
 ### Output:
+
+![output](C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-10-01 132724.png)
 
 
 
