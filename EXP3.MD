@@ -72,8 +72,13 @@ C:\Users\SEC\Desktop\stl>python3 primeno.py
 Enter a number:
 Enter a Positive Number
 
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 90/87
+Enter a Positive Number
 
-
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: #009
+Enter a Positive Number
 
 
 ### Result:
