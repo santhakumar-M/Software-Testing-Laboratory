@@ -44,7 +44,33 @@ else:
 
 ### Output:
 
-![output](C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-10-01 132724.png)
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 6
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: say
+Enter a Positive Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: *65
+Enter a Positive Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: -98
+Enter a Positive Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 0
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 123456
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number:
+Enter a Positive Number
 
 
 
